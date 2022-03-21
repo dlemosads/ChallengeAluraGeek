@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+body {
+   background: #f5f5f5;
+   margin: 0;
+}
+
+header {
+    height: 115px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    position: static;
+    width: 176px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+
+.pesquisa {
+    position: static;
+    width: 393px;
+    height: 40px;
+    border-radius: 20px;
+    left: calc(50% - 393px/2 + 104px);
+    top: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.botaoLogin {
+    position: static;
+    width: 182px;
+    height: 51px;
+    left: 954px;
+    top: 32px;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: #2A7AE4;
+}
+
+section {
+    width: 100%;
+    height: 352px;
+    background:url(img/banner-image.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.textoBanner {
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-style: normal;
+    padding-left: 152px;
+    padding-top: 150px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    margin: 0;
+}
+
+.textoBanner>p {
+    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: 0;
+}
+
+.botaoBanner {
+    width: 130px;
+    height: 51px;
+    left: 0px;
+    top: 119px;
+    background: #2a7ae4;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    margin: auto;
+}
+
+main>ul {
+    list-style: none;
+    display: flex;
+}
+
+main>ul>li {
+    padding-right: 16px;
+}
+
+h2 {
+    padding-left: 40px;
+}
