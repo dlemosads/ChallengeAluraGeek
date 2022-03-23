@@ -113,11 +113,20 @@ h2>a {
 }
 
 .container {
-    padding: 64px 152px 64px 152px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
+}
+
+.logoLinks {
+    display: flex;
+    flex-direction: row;
     align-items: flex-start;
+}
+
+.logoLinks>img {
+    padding-right: 112px;
 }
 
 .listaLink {
@@ -135,7 +144,6 @@ h2>a {
 }
 
 .listaFale>p {
-    margin: 0;
     font-weight: 700;
     padding-bottom: 10px;
 }
@@ -182,7 +190,7 @@ a {
     text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 778px) {
     .logo {
         width: 100px;
         height: 28px;
@@ -220,51 +228,101 @@ a {
     }
 
     .container {
-        padding: 32px;
+        width: 100%;
+        height: 364px;
     }
-    
-    .listaLink {
-    }
-    
-    .listaLink>a {
-        padding-bottom: 20px;
-    }
-    
-    .listaFale {
+
+    .logoLinks {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
     }
-    
-    .listaFale>p {
-        margin: 0;
-        font-weight: 700;
-        padding-bottom: 10px;
+
+    .logoLinks>img {
+        padding: 0;
     }
-    
-    .listaFale>input {
-        margin-bottom: 10px;
-    }
-    
-    footer {
-        background-color: #EAF2FD;
-        width: 100%;
-        height: 368px;
-    }
-    
+
     .footerNome {
-        width: 560px;
+        width: 434px;
         height: 52px;
     }
     
     .footerMsm {
-        width: 560px;
-        height: 75px;
+        width: 434px;
+        height: 52px;
     }
     
     .footerBtn {
-        width: 165px;
-        height: 51px;
-        background: #2A7AE4;
-        color: white;
+        width: 151px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .logo {
+        width: 100px;
+        height: 28px;
+    }
+    
+    .pesquisa {
+        display: none;
+    }
+
+    .botaoLogin {
+        width: 133px;
+        height: 40px;
+    }
+
+    .textoBanner {
+        padding-left: 16px;
+        padding-top: 78px;
+    }
+
+    .listaProduto>ul {
+        flex-wrap: wrap;
+    }
+
+    ul>li>img {
+        width: 164px;
+    }
+
+    .menuHide {
+        display: none;
+    }
+
+    footer {
+        height: 553px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 553px;
+    }
+
+    .logoLinks {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logoLinks>img {
+        padding: 0;
+    }
+
+    .footerNome {
+        width: 328px;
+        height: 52px;
+    }
+    
+    .footerMsm {
+        width: 328px;
+        height: 82px;
+    }
+    
+    .footerBtn {
+        width: 151px;
+        height: 40px;
     }
 }
