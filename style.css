@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
 
 body {
    background: #f5f5f5;
@@ -43,7 +47,7 @@ header {
     color: #2A7AE4;
 }
 
-.botaoLogin:hover {
+.botaoBanner,.botaoLogin:hover {
     cursor: pointer;
 }
 
