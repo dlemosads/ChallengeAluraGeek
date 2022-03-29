@@ -1,0 +1,36 @@
+.loginInicial {
+    width: 100%;
+    background: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 85px;
+    padding-bottom: 91px;
+}
+
+.loginInicial>input {
+    margin-top: 24px;
+    width: 423px;
+    height: 63px;
+}
+
+.botaoEntrari {
+    background: #2A7Ae4;
+    color: white;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 375px) {
+    .loginInicial {
+        padding-top: 76px;
+        padding-bottom: 76px;
+    }
+    
+    .loginInicial>input {
+        margin-top: 16px;
+        width: 275px;
+        height: 41px;
+    }
+}

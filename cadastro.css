@@ -1,0 +1,116 @@
+.loginInicial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+.sec1 {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.area-upload label.label-upload{
+	border: 2px dashed #0d8acd;
+	min-height: 200px;
+	text-align: center;
+	width: 282px;
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	color: #0d8acd;
+	position: relative;
+	
+	-webkit-transition: .3s all;
+	-moz-transition: .3s all;
+	-o-transition: .3s all;
+	transition: .3s all;
+}
+
+.area-upload label.label-upload.highlight{
+	background-color: #fffdaa;
+}
+
+.area-upload label.label-upload *{
+	pointer-events: none;
+}
+
+#upload-file {
+    display: none;
+}
+
+.addBotao {
+    width: 239px;
+    height: 51px;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+    margin-left: 4px;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.blocoText {
+    width: 559px;
+    height: 56px;
+    margin-top: 16px;
+}
+
+.blocoText2 {
+    width: 559px;
+    height: 82px;
+    margin-top: 16px;
+}
+
+.blocoBtn {
+    width: 567px;
+    height: 56px;
+    background: #2A7AE4;
+    color: white;
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 375px) {
+    .loginInicial {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        align-items: flex-start;
+    }
+
+    .area-upload label.label-upload {
+        width: 328px;
+    }
+
+    .sec1 {
+        margin-left: 0;
+    }
+
+    .sec1>p {
+        display: none;
+    }
+
+    .addBotao {
+        display: none;
+    }
+
+    .blocoText {
+        width: 328px;
+    }
+
+    .blocoText2 {
+        width: 328px;
+    }
+
+    .blocoBtn {
+        width: 338px;
+    }
+}

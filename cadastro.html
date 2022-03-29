@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Alura Geek</title>
+</head>
+<body>
+    <header>
+        <img src="img/Logo.png" alt="Logo Alura Geek" class="logo">
+        <input type="text" class="pesquisa" required placeholder="   O que deseja encontrar?" >
+        <input type="button" value="Login" class="botaoLogin">
+    </header>
+
+    <!--Cadastro-->
+    <main class="loginInicial">
+        <h1>Adicionar novo produto</h1>
+        <div class="sec1">
+            <div class="area-upload">
+                <label for="upload-file" class="label-upload">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <div class="texto">Clique ou arraste o arquivo</div>
+                </label>
+                <input type="file" accept="image/jpg,image/png" id="upload-file" multiple/>
+                
+                <div class="lista-uploads">
+                </div>
+                
+            </div>
+            <p>Ou</p>
+                <input type="button" value="Procure no seu computador" class="addBotao">
+        </div>
+        <div class="sec2">
+            <input type="text" name="" id="" required placeholder="Nome do produto" class="blocoText">
+            <input type="text" name="" id="" required placeholder="Preço do produto" class="blocoText">
+            <input type="text" name="" id="" required placeholder="Descrição do produto" class="blocoText2">
+            <input type="button" value="Adicionar produto" class="blocoBtn">
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="logoLinks">    
+                <img src="img/Logo.png" alt="Logo Alura Geek">
+
+                <div class="listaLink">
+                    <a href="#">Quem somos nós</a>
+                    <a href="#">Pólitica de privacidade</a>
+                    <a href="#">Programa fidelidade</a>
+                    <a href="#">Nossas lojas</a>
+                    <a href="#">Quero ser franqueado</a>
+                    <a href="#">Anuncie aqui</a>
+                </div>
+            </div>
+
+            <div class="listaFale">
+                <p>Fale conosco</p>
+                <input type="text" required placeholder="   Nome" class="footerNome">
+                <input type="text" required placeholder="   Escreva sua mensagem" class="footerMsm">
+                <input type="button" value="Enviar mensagem" class="footerBtn"> 
+            </div>
+        </div>
+    </footer>
+
+    <div class="rodape">
+        <p>Desenvolvido por Diego Lemos <br>2022</p>
+    </div>
+    
+</body>
+</html>

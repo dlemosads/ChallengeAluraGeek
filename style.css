@@ -27,6 +27,10 @@ header {
     border-radius: 20px;
     font-weight: 400;
     font-size: 14px;
+    background-image: url(img/lupa.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 95%;
 }
 
 .botaoLogin {
@@ -37,6 +41,10 @@ header {
     border: 1px solid #2A7AE4;
     box-sizing: border-box;
     color: #2A7AE4;
+}
+
+.botaoLogin:hover {
+    cursor: pointer;
 }
 
 section {
@@ -175,6 +183,10 @@ footer {
     color: white;
 }
 
+.footerBtn:hover {
+    cursor: pointer;
+}
+
 .rodape {
     height: 102px;
     display: flex;
@@ -273,9 +285,31 @@ a {
         height: 40px;
     }
 
+    section {
+        width: 375px;
+        height: 192px;
+        
+    }
+
+    h1 {
+        font-size: 22px;
+        line-height: 2;
+    }
+
     .textoBanner {
+        margin: 0;
+        border: 0;
+        padding: 0;
         padding-left: 16px;
-        padding-top: 78px;
+        padding-top: 58px;
+    }
+
+    .textoBanner>p {
+        margin: 0;
+        border: 0;
+        padding: 0;
+        font-size: 14px;
+        padding-bottom: 10px;
     }
 
     .listaProduto>ul {

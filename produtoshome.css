@@ -1,0 +1,10 @@
+.addProduto {
+    width: 164px;
+    height: 51px;
+    background: #2A7AE4;
+    color: white;
+}
+
+.addProduto:hover {
+    cursor: pointer;
+}
